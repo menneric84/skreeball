@@ -1,0 +1,13 @@
+file_format: "1"
+id: skree
+name: skree
+type: shield
+url: https://github.com/rianadon/Cosmos-Keyboards
+features:
+  - keys
+  - underglow
+  - encoder
+  - studio
+siblings:
+  - skree_left
+  - skree_right

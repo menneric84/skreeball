@@ -1,0 +1,6 @@
+
+config SHIELD_skree_LEFT
+    def_bool $(shields_list_contains,skree_left)
+
+config SHIELD_skree_RIGHT
+    def_bool $(shields_list_contains,skree_right)

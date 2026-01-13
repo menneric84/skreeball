@@ -16,6 +16,13 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <150>;
+            bindings = <&kp LBRC>, <&kp RBRC>, <&kp LBKT>, <&kp RBKT>;
+        };
+
         dtsmi: dot_semi {
             compatible = "zmk,behavior-mod-morph";
             label = "DOT_SEMI";
@@ -34,6 +41,15 @@
             tapping-term-ms = <175>; // triggers the hold behavior when the tapping-term-ms has expired
             quick-tap-ms = <150>; // If you press a tapped hold-tap again within quick-tap-ms milliseconds of the first press, it will always trigger the tap behavior.
             require-prior-idle-ms = <185>; // like quick-tap-ms however it will apply for any non-modifier key pressed before it
+        };
+
+        ht: hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP";
+            bindings = <&kp>, <&kp>;
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
         };
 
         as_ht: autoshift_hold_tap {

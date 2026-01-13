@@ -1,5 +1,5 @@
 
-if SHIELD_skree_LEFT
+if SHIELD_skree_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "skree"
@@ -7,7 +7,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif # SHIELD_skree_LEFT
+endif # SHIELD_skree_RIGHT
 
 if SHIELD_skree_LEFT || SHIELD_skree_RIGHT
 

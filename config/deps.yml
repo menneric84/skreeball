@@ -2,10 +2,8 @@ manifest:
   remotes:
     - name: sadekbaroudi
       url-base: https://github.com/sadekbaroudi
-    - name: rianadon
-      url-base: https://github.com/rianadon
   projects:
     - name: zmk-fingerpunch-vik
-      remote: rianadon
+      remote: sadekbaroudi
       revision: main
       import: config/deps.yml

@@ -91,7 +91,7 @@ macros {
     &kp ESC     &kp A    &kp S    &kp D                &hm_rick LCTRL F &kp G               &kp H        &hm_rick LCTRL J     &kp K       &kp L      &kp SEMI   &kp APOS
     &kp LGUI    &kp Z    &kp X    &kp C                &kp V            &kp B               &kp N        &kp M                &kp COMMA   &kp DOT    &kp FSLH   &kp BSLH
 //                                ╰───────────────────────────────────╯ ╰───────────────────────────────────╯
-                                  &lt extra ESC        &lt nav SPACE    &kp BSPC            &kp LSHIFT   &lt numbers ENTER    &kp LGUI
+                                  &lt 3 ESC            &lt 2 SPACE      &kp BSPC            &kp LSHIFT   &lt 1 ENTER          &kp LGUI
 //                                ╰───────────────────────────────────╯ ╰───────────────────────────────────╯
             >;
         };

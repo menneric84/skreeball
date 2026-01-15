@@ -1,0 +1,17 @@
+
+if SHIELD_rickball_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "rickball"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_rickball_RIGHT
+
+if SHIELD_rickball_LEFT || SHIELD_rickball_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_rickball_LEFT || SHIELD_rickball_RIGHT

@@ -1,4 +1,4 @@
-#include "skree.dtsi"
+#include "rickball.dtsi"
 
 / {
     bootloader_key: bootloader_key {
@@ -6,4 +6,8 @@
         key-position = <0>;
         jump-to-bootloader;
     };
+};
+
+&left_encoder {
+    status = "okay";
 };
